@@ -84,6 +84,51 @@
 		<td>SI</td>
 	</tr>
 </table>
+<br/>
+<h2>Agregar Estudios</h2>
+	<form action="#" method="post" >
+		<table>
+			<tr>
+				<td>
+					<label for="idListaAnio"><strong>Año: </strong></label>
+					<select id="idListaAnio">
+						<option value="2010">2010</option>
+						<option value="2011">2011</option>
+						<option value="2012">2012</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+					</select>
+				</td>				
+			</tr>
+			<tr>
+				<td>
+					<label for="idNameInstitucion"><strong>Institución: </strong></label>
+					<input type="text" id="idNameInstitucion" name="nameInstitucion" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="idLugar" style="float: left;"><strong>Lugar:&nbsp;</strong></label>
+					<textarea id="idLugar" cols="25"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label><strong>¿Culminó?</strong></label>
+					<input type="radio" id="idOpcCulminoSi" name="CulminoSiNo" value="SI"><label for="idOpcCulminoSi">Si</label>
+					<input type="radio" id="idOpcCulminoNo" name="CulminoSiNo" value="NO"><label for="idOpcCulminoNo">No</label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="Enviar" value="Enviar"></td>
+			</tr>
+		</table>
+		
+		<br/>
+	</form>
+
 
 <footer>Derechos Resevados
 <ul>
